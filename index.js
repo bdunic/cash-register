@@ -1,9 +1,23 @@
 "use strict"; // This line chooses a JavaScript dialect, one that helps both jsLint (used in OrionHub) and browsers catch errors.
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
 document.getElementById('hamburger').addEventListener('click', hamburger);
-document.getElementById('hamburger').addEventListener('click', hamburger);
-document.getElementById('hamburger').addEventListener('click', hamburger);
-document.getElementById('hamburger').addEventListener('click', hamburger);
+document.getElementById('corndog').addEventListener('click', corndog);
+document.getElementById('cheeseburger').addEventListener('click', cheeseburger);
+document.getElementById('fries').addEventListener('click', fries);
+document.getElementById('cookie').addEventListener('click', cookie);
+document.getElementById('icecream').addEventListener('click', icecream);
+document.getElementById('drink').addEventListener('click', drink);
+document.getElementById('coffee').addEventListener('click', coffee);
+document.getElementById('sundae').addEventListener('click', sundae);
+document.getElementById('HBcombo').addEventListener('click', hamburger);
+document.getElementById('HBcombo').addEventListener('click', fries);
+document.getElementById('HBcombo').addEventListener('click', drink);
+document.getElementById('CDcombo').addEventListener('click', corndog);
+document.getElementById('CDcombo').addEventListener('click', fries);
+document.getElementById('CDcombo').addEventListener('click', drink);
+document.getElementById('CBcombo').addEventListener('click', cheeseburger);
+document.getElementById('CBcombo').addEventListener('click', fries);
+document.getElementById('CBcombo').addEventListener('click', drink);
 var prices = {
 	'hamburger': 1.99,
 	'cheeseburger': 2.29,
