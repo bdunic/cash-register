@@ -60,6 +60,7 @@ i=i+1;
 document.getElementById('receipt').innerHTML = i;
 document.getElementById('item').innerHTML = '';
 update();
+alert("Thank you for your purchase!")
 }
 function cancel() {
 runningtotal=0;
