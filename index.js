@@ -1,9 +1,9 @@
 "use strict"; // This line chooses a JavaScript dialect, one that helps both jsLint (used in OrionHub) and browsers catch errors.
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
 function update(){
-	document.getElementById('runningsubtotal').innerHTML = runningsubtotal;
-	document.getElementById('runningtax').innerHTML = runningtax;
-	document.getElementById('runningtotal').innerHTML = runningtotal;
+	document.getElementById('runningsubtotal').innerHTML = Math.round(runningsubtotal * 100) / 100;
+	document.getElementById('runningtax').innerHTML = Math.round(runningtax * 100) / 100;
+	document.getElementById('runningtotal').innerHTML = Math.round(runningtotal * 100) / 100;
 }
 document.getElementById('cancel').addEventListener('click', cancel);
 document.getElementById('confirm').addEventListener('click', confirm);
