@@ -5,6 +5,8 @@ function update(){
 	document.getElementById('runningtax').innerHTML = runningtax;
 	document.getElementById('runningtotal').innerHTML = runningtotal;
 }
+document.getElementById('cancel').addEventListener('click', cancel);
+document.getElementById('confirm').addEventListener('click', confirm);
 document.getElementById('hamburger').addEventListener('click', hamburger);
 document.getElementById('corndog').addEventListener('click', corndog);
 document.getElementById('cheeseburger').addEventListener('click', cheeseburger);
@@ -52,8 +54,9 @@ var i=1
 function confirm() {
 runningtotal=0;
 runningsubtotal=0;
-runningtax=0
-i=i+1
+runningtax=0;
+i=i+1;
+document.getElementById('receipt').innerHTML = i+1
 }
 function clear() {
 runningtotal=0;
