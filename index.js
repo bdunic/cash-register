@@ -57,8 +57,8 @@ runningtotal=0;
 runningsubtotal=0;
 runningtax=0;
 i=i+1;
-document.getElementById('receipt').innerHTML = i
-update()
+document.getElementById('receipt').innerHTML = i;
+update();
 }
 function cancel() {
 runningtotal=0;
