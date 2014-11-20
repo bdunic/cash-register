@@ -48,7 +48,7 @@ total= subtotal + tax;
 runningsubtotal=runningsubtotal+subtotal;
 runningtax=runningtax+tax;
 runningtotal=runningtotal+total
-Math.round()
+document.getElementById('item').innerHTML = item
 update()
 }
 var i=1
