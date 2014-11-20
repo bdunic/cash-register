@@ -81,3 +81,8 @@ function cookie(){
 function icecream(){
 	Register('icecream');
 }
+function update(){
+	document.getElementById('runningsubtotal').innerHTML = runningsubtotal;
+	document.getElementById('runningtax').innerHTML = runningtax;
+	document.getElementById('runningtotal').innerHTML = runningtotal;
+}
