@@ -59,7 +59,7 @@ runningtax=0;
 i=i+1;
 document.getElementById('receipt').innerHTML = i+1
 }
-function clear() {
+function cancel() {
 runningtotal=0;
 runningsubtotal=0;
 runningtax=0;
