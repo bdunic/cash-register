@@ -81,7 +81,3 @@ function cookie(){
 function icecream(){
 	Register('icecream');
 }
-}
-	}
-}
-}
