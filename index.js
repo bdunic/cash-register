@@ -72,3 +72,16 @@ Register('sundae');
 function coffee(){
 Register('coffee');
 }
+function fries(){
+	Register('fries');
+}
+function cookie(){
+	Register('cookie');
+}
+function icecream(){
+	Register('icecream');
+}
+}
+	}
+}
+}
