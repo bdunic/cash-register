@@ -64,7 +64,7 @@ function cancel() {
 runningtotal=0;
 runningsubtotal=0;
 runningtax=0;
-update());
+update();
 }
 function hamburger(){
 Register('hamburger');
