@@ -5,8 +5,6 @@ function update(){
 	document.getElementById('runningtax').innerHTML = runningtax;
 	document.getElementById('runningtotal').innerHTML = runningtotal;
 }
-document.getElementById('cancel order').addEventListener('click', cancel order)
-document.getElementById('confirm order').addEventListener('click', confirm order)
 document.getElementById('hamburger').addEventListener('click', hamburger);
 document.getElementById('corndog').addEventListener('click', corndog);
 document.getElementById('cheeseburger').addEventListener('click', cheeseburger);
