@@ -67,7 +67,7 @@ function cheeseburger(){
 Register('cheeseburger');
 }
 function corndog(){
-Register('crondog');
+Register('corndog');
 }
 function drink(){
 Register('drink');
