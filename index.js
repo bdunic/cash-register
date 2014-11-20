@@ -1,5 +1,10 @@
 "use strict"; // This line chooses a JavaScript dialect, one that helps both jsLint (used in OrionHub) and browsers catch errors.
 /*jslint browser: true*/ // This line tells jsLint that the code will run in a browser.
+function update(){
+	document.getElementById('runningsubtotal').innerHTML = runningsubtotal;
+	document.getElementById('runningtax').innerHTML = runningtax;
+	document.getElementById('runningtotal').innerHTML = runningtotal;
+}
 document.getElementById('hamburger').addEventListener('click', hamburger);
 document.getElementById('corndog').addEventListener('click', corndog);
 document.getElementById('cheeseburger').addEventListener('click', cheeseburger);
@@ -41,6 +46,7 @@ total= subtotal + tax;
 runningsubtotal=runningsubtotal+subtotal;
 runningtax=runningtax+tax;
 runningtotal=runningtotal+total
+update()
 }
 var i=1
 function confirm() {
@@ -81,8 +87,4 @@ function cookie(){
 function icecream(){
 	Register('icecream');
 }
-function update(){
-	document.getElementById('runningsubtotal').innerHTML = runningsubtotal;
-	document.getElementById('runningtax').innerHTML = runningtax;
-	document.getElementById('runningtotal').innerHTML = runningtotal;
-}
+
